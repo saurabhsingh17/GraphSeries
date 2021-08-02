@@ -1,0 +1,16 @@
+Theory:
+In the breadth first search we traverse the graph components breadth wise i.e instead going into the
+depth we tend to traverse adjacent nodes first.
+
+Algorithm:
+1.First we create a a vector to store the sequence of bfs and a visited array
+and initialise that to 0
+.And loop over that one by one.
+2. We check if the array value is 1 if not we create an queue and push the value into the q.
+3. We loop over the q element until it is empty.We initialise node with the front of queue
+and then remove that value from queue and update the bfs sequence.
+4. we loop over adj[node]
+if vis[node]==0
+then we push it into the queue and vis[node]==1;
+The Time complexity of BFS is O(V + E) when Adjacency List is used
+and O(V^2) when Adjacency Matrix is used, where V stands for vertices and E stands for edges.

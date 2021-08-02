@@ -1,0 +1,9 @@
+Theory:
+DFS is traversal technique we tend to traverse trough the depth of the graph rather than traversing adjacent
+nodes first.
+
+Algorithm:
+1.First create a visited array and loop over the element one by one
+2.if value is not 0 put the value in the queue and traverse over the adjacency list for that
+particular number
+

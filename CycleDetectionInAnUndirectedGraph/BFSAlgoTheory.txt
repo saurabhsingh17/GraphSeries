@@ -1,0 +1,10 @@
+Theory:
+We use BFS algorith with little modification.. instead of pushing the vertex alone
+we push its parent also with the node.. so while traversing if any case comes where
+par!=it then we can know that it is cycle only.
+
+Algorithm:
+We have a visited vector and adj[] we traverse over the visited array..we put the first
+one as (node,-1) and check in the adj list for its adjacent nodes we check if that
+particular value in the visited if it is visited and not parent then there is cycle else
+we put the node in the queue.

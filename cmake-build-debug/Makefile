@@ -141,32 +141,32 @@ GraphSeries/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/build
 .PHONY : GraphSeries/fast
 
-DFS/Code.obj: DFS/Code.cpp.obj
+BFS/Code.obj: BFS/Code.cpp.obj
 
-.PHONY : DFS/Code.obj
+.PHONY : BFS/Code.obj
 
 # target to build an object file
-DFS/Code.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/DFS/Code.cpp.obj
-.PHONY : DFS/Code.cpp.obj
+BFS/Code.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/BFS/Code.cpp.obj
+.PHONY : BFS/Code.cpp.obj
 
-DFS/Code.i: DFS/Code.cpp.i
+BFS/Code.i: BFS/Code.cpp.i
 
-.PHONY : DFS/Code.i
+.PHONY : BFS/Code.i
 
 # target to preprocess a source file
-DFS/Code.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/DFS/Code.cpp.i
-.PHONY : DFS/Code.cpp.i
+BFS/Code.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/BFS/Code.cpp.i
+.PHONY : BFS/Code.cpp.i
 
-DFS/Code.s: DFS/Code.cpp.s
+BFS/Code.s: BFS/Code.cpp.s
 
-.PHONY : DFS/Code.s
+.PHONY : BFS/Code.s
 
 # target to generate assembly for a file
-DFS/Code.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/DFS/Code.cpp.s
-.PHONY : DFS/Code.cpp.s
+BFS/Code.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/BFS/Code.cpp.s
+.PHONY : BFS/Code.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... GraphSeries
-	@echo ... DFS/Code.obj
-	@echo ... DFS/Code.i
-	@echo ... DFS/Code.s
+	@echo ... BFS/Code.obj
+	@echo ... BFS/Code.i
+	@echo ... BFS/Code.s
 .PHONY : help
 
 

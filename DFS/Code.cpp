@@ -15,8 +15,8 @@ class Solution {
 public:
     vector<int>dfsOfGraph(int V, vector<int> adj[]){
         vector<int> storeDfs;
-        vector<int> vis(V+1, 0);
-        for(int i = 1;i<=V;i++) {
+        vector<int> vis(V, 0);
+        for(int i = 0;i<V;i++) {
             if(!vis[i]) dfs(i, vis, adj, storeDfs);
         }
         return storeDfs;
@@ -25,9 +25,11 @@ public:
 
 // { Driver Code Starts.
 int main(){
-    int tc;
-    cin >> tc;
-    while(tc--){
+#ifndef ONLINE_JUDGE
+    freopen("input.txt","r",stdin);
+    freopen("output.txt","w",stdout);
+    freopen("error.txt","w",stderr);
+#endif
         int V, E;
         cin >> V >> E;
 
@@ -48,6 +50,5 @@ int main(){
             cout<<ans[i]<<" ";
         }
         cout<<endl;
-    }
     return 0;
 }  // } Driver Code Ends

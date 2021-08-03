@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Maruti/CLionProjects/GraphSeries/DFS/Code.cpp" "C:/Users/Maruti/CLionProjects/GraphSeries/cmake-build-debug/CMakeFiles/GraphSeries.dir/DFS/Code.cpp.obj"
+  "C:/Users/Maruti/CLionProjects/GraphSeries/BFS/Code.cpp" "C:/Users/Maruti/CLionProjects/GraphSeries/cmake-build-debug/CMakeFiles/GraphSeries.dir/BFS/Code.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -141,32 +141,32 @@ GraphSeries/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/build
 .PHONY : GraphSeries/fast
 
-BipartiteGraphUsingBDS/code.obj: BipartiteGraphUsingBDS/code.cpp.obj
+BipartiteGraphUsingDFS/code.obj: BipartiteGraphUsingDFS/code.cpp.obj
 
-.PHONY : BipartiteGraphUsingBDS/code.obj
+.PHONY : BipartiteGraphUsingDFS/code.obj
 
 # target to build an object file
-BipartiteGraphUsingBDS/code.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/BipartiteGraphUsingBDS/code.cpp.obj
-.PHONY : BipartiteGraphUsingBDS/code.cpp.obj
+BipartiteGraphUsingDFS/code.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/BipartiteGraphUsingDFS/code.cpp.obj
+.PHONY : BipartiteGraphUsingDFS/code.cpp.obj
 
-BipartiteGraphUsingBDS/code.i: BipartiteGraphUsingBDS/code.cpp.i
+BipartiteGraphUsingDFS/code.i: BipartiteGraphUsingDFS/code.cpp.i
 
-.PHONY : BipartiteGraphUsingBDS/code.i
+.PHONY : BipartiteGraphUsingDFS/code.i
 
 # target to preprocess a source file
-BipartiteGraphUsingBDS/code.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/BipartiteGraphUsingBDS/code.cpp.i
-.PHONY : BipartiteGraphUsingBDS/code.cpp.i
+BipartiteGraphUsingDFS/code.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/BipartiteGraphUsingDFS/code.cpp.i
+.PHONY : BipartiteGraphUsingDFS/code.cpp.i
 
-BipartiteGraphUsingBDS/code.s: BipartiteGraphUsingBDS/code.cpp.s
+BipartiteGraphUsingDFS/code.s: BipartiteGraphUsingDFS/code.cpp.s
 
-.PHONY : BipartiteGraphUsingBDS/code.s
+.PHONY : BipartiteGraphUsingDFS/code.s
 
 # target to generate assembly for a file
-BipartiteGraphUsingBDS/code.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/BipartiteGraphUsingBDS/code.cpp.s
-.PHONY : BipartiteGraphUsingBDS/code.cpp.s
+BipartiteGraphUsingDFS/code.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/BipartiteGraphUsingDFS/code.cpp.s
+.PHONY : BipartiteGraphUsingDFS/code.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... GraphSeries
-	@echo ... BipartiteGraphUsingBDS/code.obj
-	@echo ... BipartiteGraphUsingBDS/code.i
-	@echo ... BipartiteGraphUsingBDS/code.s
+	@echo ... BipartiteGraphUsingDFS/code.obj
+	@echo ... BipartiteGraphUsingDFS/code.i
+	@echo ... BipartiteGraphUsingDFS/code.s
 .PHONY : help
 
 

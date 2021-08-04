@@ -1,0 +1,7 @@
+Theory:
+Earlier cycle detection method doesn't work here as we can have direction which
+aren't getting reflected in the visited array.
+For overcoming this issue we have come up with an extra array dfsvis there we can
+mark dfsvis[node]=1 when we call the traverse function
+and similarly while going back we make it as 0.
+So if there is cycle then we can have vis[node]==1 as well as dfsvis[node]==1

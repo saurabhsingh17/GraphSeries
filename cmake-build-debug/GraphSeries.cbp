@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Maruti/CLionProjects/GraphSeries/BipartiteGraphUsingBDS/code.cpp">
+		<Unit filename="C:/Users/Maruti/CLionProjects/GraphSeries/BipartiteGraphUsingDFS/code.cpp">
 			<Option target="GraphSeries"/>
 		</Unit>
 		<Unit filename="C:/Users/Maruti/CLionProjects/GraphSeries/CMakeLists.txt">

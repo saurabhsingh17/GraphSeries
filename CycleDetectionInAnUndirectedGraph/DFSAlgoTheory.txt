@@ -1,0 +1,8 @@
+Theory:
+We create a visited array and start traversing over it
+and initialise the first node(1,-1)
+and then we tend to look for its adjacent we pick one of the adjacent element
+if it is not
+already visited then we put it in the queue
+and assign 1 to visited array and then we continue in the similar unless we find an
+element having it !=parent

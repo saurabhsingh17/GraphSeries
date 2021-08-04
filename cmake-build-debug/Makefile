@@ -141,32 +141,32 @@ GraphSeries/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/build
 .PHONY : GraphSeries/fast
 
-BFS/Code.obj: BFS/Code.cpp.obj
+BipartiteGraphUsingBDS/code.obj: BipartiteGraphUsingBDS/code.cpp.obj
 
-.PHONY : BFS/Code.obj
+.PHONY : BipartiteGraphUsingBDS/code.obj
 
 # target to build an object file
-BFS/Code.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/BFS/Code.cpp.obj
-.PHONY : BFS/Code.cpp.obj
+BipartiteGraphUsingBDS/code.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/BipartiteGraphUsingBDS/code.cpp.obj
+.PHONY : BipartiteGraphUsingBDS/code.cpp.obj
 
-BFS/Code.i: BFS/Code.cpp.i
+BipartiteGraphUsingBDS/code.i: BipartiteGraphUsingBDS/code.cpp.i
 
-.PHONY : BFS/Code.i
+.PHONY : BipartiteGraphUsingBDS/code.i
 
 # target to preprocess a source file
-BFS/Code.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/BFS/Code.cpp.i
-.PHONY : BFS/Code.cpp.i
+BipartiteGraphUsingBDS/code.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/BipartiteGraphUsingBDS/code.cpp.i
+.PHONY : BipartiteGraphUsingBDS/code.cpp.i
 
-BFS/Code.s: BFS/Code.cpp.s
+BipartiteGraphUsingBDS/code.s: BipartiteGraphUsingBDS/code.cpp.s
 
-.PHONY : BFS/Code.s
+.PHONY : BipartiteGraphUsingBDS/code.s
 
 # target to generate assembly for a file
-BFS/Code.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/BFS/Code.cpp.s
-.PHONY : BFS/Code.cpp.s
+BipartiteGraphUsingBDS/code.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/BipartiteGraphUsingBDS/code.cpp.s
+.PHONY : BipartiteGraphUsingBDS/code.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... GraphSeries
-	@echo ... BFS/Code.obj
-	@echo ... BFS/Code.i
-	@echo ... BFS/Code.s
+	@echo ... BipartiteGraphUsingBDS/code.obj
+	@echo ... BipartiteGraphUsingBDS/code.i
+	@echo ... BipartiteGraphUsingBDS/code.s
 .PHONY : help
 
 

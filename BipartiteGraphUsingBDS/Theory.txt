@@ -1,0 +1,13 @@
+Bipartite Definition:
+A graph that can be colored using two colors such that no two adjacent nodes have same
+color.
+1. Node in the cycle is odd:- Not bipartite
+2. Not Odd :Bipartite
+
+Theory:
+We create a color array and put the first element into queue and initialise it with 1.
+and we traverse to the elements in the queue and itiliase the first element with node
+and pop the value.. we traverse to the adjacent elements of the node..
+if it is not colored then we color it else if the color of the adjacent value is
+equal to current node color then we return false.
+

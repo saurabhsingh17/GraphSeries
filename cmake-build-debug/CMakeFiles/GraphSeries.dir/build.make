@@ -75,27 +75,27 @@ include CMakeFiles/GraphSeries.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/GraphSeries.dir/flags.make
 
-CMakeFiles/GraphSeries.dir/BFS/Code.cpp.obj: CMakeFiles/GraphSeries.dir/flags.make
-CMakeFiles/GraphSeries.dir/BFS/Code.cpp.obj: ../BFS/Code.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Maruti\CLionProjects\GraphSeries\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GraphSeries.dir/BFS/Code.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GraphSeries.dir\BFS\Code.cpp.obj -c C:\Users\Maruti\CLionProjects\GraphSeries\BFS\Code.cpp
+CMakeFiles/GraphSeries.dir/BipartiteGraphUsingBDS/code.cpp.obj: CMakeFiles/GraphSeries.dir/flags.make
+CMakeFiles/GraphSeries.dir/BipartiteGraphUsingBDS/code.cpp.obj: ../BipartiteGraphUsingBDS/code.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Maruti\CLionProjects\GraphSeries\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GraphSeries.dir/BipartiteGraphUsingBDS/code.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GraphSeries.dir\BipartiteGraphUsingBDS\code.cpp.obj -c C:\Users\Maruti\CLionProjects\GraphSeries\BipartiteGraphUsingBDS\code.cpp
 
-CMakeFiles/GraphSeries.dir/BFS/Code.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GraphSeries.dir/BFS/Code.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Maruti\CLionProjects\GraphSeries\BFS\Code.cpp > CMakeFiles\GraphSeries.dir\BFS\Code.cpp.i
+CMakeFiles/GraphSeries.dir/BipartiteGraphUsingBDS/code.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GraphSeries.dir/BipartiteGraphUsingBDS/code.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Maruti\CLionProjects\GraphSeries\BipartiteGraphUsingBDS\code.cpp > CMakeFiles\GraphSeries.dir\BipartiteGraphUsingBDS\code.cpp.i
 
-CMakeFiles/GraphSeries.dir/BFS/Code.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GraphSeries.dir/BFS/Code.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Maruti\CLionProjects\GraphSeries\BFS\Code.cpp -o CMakeFiles\GraphSeries.dir\BFS\Code.cpp.s
+CMakeFiles/GraphSeries.dir/BipartiteGraphUsingBDS/code.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GraphSeries.dir/BipartiteGraphUsingBDS/code.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Maruti\CLionProjects\GraphSeries\BipartiteGraphUsingBDS\code.cpp -o CMakeFiles\GraphSeries.dir\BipartiteGraphUsingBDS\code.cpp.s
 
 # Object files for target GraphSeries
 GraphSeries_OBJECTS = \
-"CMakeFiles/GraphSeries.dir/BFS/Code.cpp.obj"
+"CMakeFiles/GraphSeries.dir/BipartiteGraphUsingBDS/code.cpp.obj"
 
 # External object files for target GraphSeries
 GraphSeries_EXTERNAL_OBJECTS =
 
-GraphSeries.exe: CMakeFiles/GraphSeries.dir/BFS/Code.cpp.obj
+GraphSeries.exe: CMakeFiles/GraphSeries.dir/BipartiteGraphUsingBDS/code.cpp.obj
 GraphSeries.exe: CMakeFiles/GraphSeries.dir/build.make
 GraphSeries.exe: CMakeFiles/GraphSeries.dir/linklibs.rsp
 GraphSeries.exe: CMakeFiles/GraphSeries.dir/objects1.rsp

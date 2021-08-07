@@ -1,0 +1,5 @@
+Theory:
+We need to find the topo sort of the given graph and then we need to
+pop one element everytime and check if its adjacent nodes dis value is
+not infinity if the current sum is smaller than the earlier sum
+then we update the sum else we keep it as it is.

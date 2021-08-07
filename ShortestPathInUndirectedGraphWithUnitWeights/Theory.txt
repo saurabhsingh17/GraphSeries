@@ -1,0 +1,5 @@
+Theory:
+We create an array of weights and assign infinity to all the values.
+We assign 0 to the source node and add 0 as the weight we push the adjacent nodes
+to the queue. We add 1 to adjacent nodes weights and continue in the similar
+fashion.

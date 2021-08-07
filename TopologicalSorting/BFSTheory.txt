@@ -1,0 +1,8 @@
+Theory:
+Kahn Algorithm:
+We have a indegree array and we pick the elements whose indegree is 0 and put it
+in the queue.
+We take out the first element from the queue and traverse over its adjacent nodes
+and reduce there indegree by 1.
+And while taking out the element from the queue we put it in the order.
+We keep doing that unless the q is empty.

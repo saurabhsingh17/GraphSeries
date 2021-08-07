@@ -3,7 +3,7 @@ using namespace std;
 
 class Solution {
 public:
-    vector<int> topo(int N, vector<int> adj[]) {
+    bool isCyclic(int N, vector<int> adj[]) {
         queue<int> q;
         vector<int> indegree(N, 0);
         for(int i = 0;i<N;i++) {
@@ -17,11 +17,11 @@ public:
                 q.push(i);
             }
         }
-        vector<int> topo;
+        int cnt = 0;
         while(!q.empty()) {
             int node = q.front();
             q.pop();
-            topo.push_back(node)
+            cnt++;
             for(auto it : adj[node]) {
                 indegree[it]--;
                 if(indegree[it] == 0) {
@@ -29,7 +29,8 @@ public:
                 }
             }
         }
-        return topo;
+        if(cnt == N) return false;
+        return true;
     }
 };
 

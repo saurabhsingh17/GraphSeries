@@ -1,0 +1,5 @@
+Theory:
+If we aren't able to generate topo sort then it has a cycle.
+For this we keep a count we popping out the element from queue and if
+count==N then no cycle
+else cycle exists.

@@ -1,0 +1,14 @@
+Theory:
+~~~~~~~~
+We assign 0 to the src distance and create a priority queue insert the element only
+when it has a better distance than the existing. Then we pick the first element
+out of the priority queue and check if the distance of there adjacent element is smaller
+than the current distance if yes replace the current distance with the new smaller distance.
+
+Time Complexity:
+~~~~~~~~~~~~~~~~
+O((N+E)logn)
+
+Space Complexity:
+~~~~~~~~~~~~~~~~~
+O(N) + O(N)

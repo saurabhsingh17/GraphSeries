@@ -1,0 +1,14 @@
+Theory:
+Prims algorithm is used to find the minimum spanning tree.
+In prims algorith we start with the source node and then we visit the node with the
+minimum weight and continue to do so .. in the process we cannot have a cycle
+and when all the nodes are visited.
+
+Algorithm:
+In the prims algo we consider three arrays key, mst , parent initialised with inf, False, -1
+When we start we consider the source node as 0 and look for its adjacent nodes and put there
+weight in the key array. From the key array we pick the smallest value and mark its value
+in mst as true and traverse through the adjacent of the node and replace the values in the
+key with the respective weights.Also mark the value in the parent node as the parent one.
+Then we check the the nodes that are adjacent to that node and we dont pick any value which
+is true in the mst or has lower value in the key already.

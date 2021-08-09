@@ -1,0 +1,6 @@
+Theory:
+-------
+Minimum spanning tree is tree which can be drawn from a graph that has exactly n nodes
+and n-1 edges and every node is reachable to every other node from a given node and
+sum of the weights is minimum.
+A Tree cannot have a cycle.

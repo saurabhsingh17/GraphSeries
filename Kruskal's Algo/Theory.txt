@@ -1,0 +1,8 @@
+Theory:
+First we store weights in a sorted linear data structures and we
+pick the value and check if they belong to the same component if no
+then we push it to the mst and perform a union operation and
+continue to do so in this fashion.
+
+Time Complexity: M log N
+Space Complexity: O(N)

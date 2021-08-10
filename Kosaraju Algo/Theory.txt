@@ -1,0 +1,10 @@
+Theory:
+Kosaraju algorithm is used to find strongly connected component
+It is based on the intuition of taking transpose of the edges
+Time Complexity:O (N+E)
+Space Complexity:O(N+E)+O(N)+O(N)
+
+Algo:
+1. Sort all edges in order of finishing time- Topo Sort
+2. Transpose the graph
+3. DFS according to the finishing time.

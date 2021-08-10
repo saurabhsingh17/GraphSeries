@@ -4,4 +4,4 @@ project(GraphSeries)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(GraphSeries
-        BipartiteGraphUsingDFS/code.cpp)
+        BellmanFordAlgorithm/code.cpp)

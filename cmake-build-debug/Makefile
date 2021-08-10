@@ -141,32 +141,32 @@ GraphSeries/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/build
 .PHONY : GraphSeries/fast
 
-BipartiteGraphUsingDFS/code.obj: BipartiteGraphUsingDFS/code.cpp.obj
+BellmanFordAlgorithm/code.obj: BellmanFordAlgorithm/code.cpp.obj
 
-.PHONY : BipartiteGraphUsingDFS/code.obj
+.PHONY : BellmanFordAlgorithm/code.obj
 
 # target to build an object file
-BipartiteGraphUsingDFS/code.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/BipartiteGraphUsingDFS/code.cpp.obj
-.PHONY : BipartiteGraphUsingDFS/code.cpp.obj
+BellmanFordAlgorithm/code.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/BellmanFordAlgorithm/code.cpp.obj
+.PHONY : BellmanFordAlgorithm/code.cpp.obj
 
-BipartiteGraphUsingDFS/code.i: BipartiteGraphUsingDFS/code.cpp.i
+BellmanFordAlgorithm/code.i: BellmanFordAlgorithm/code.cpp.i
 
-.PHONY : BipartiteGraphUsingDFS/code.i
+.PHONY : BellmanFordAlgorithm/code.i
 
 # target to preprocess a source file
-BipartiteGraphUsingDFS/code.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/BipartiteGraphUsingDFS/code.cpp.i
-.PHONY : BipartiteGraphUsingDFS/code.cpp.i
+BellmanFordAlgorithm/code.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/BellmanFordAlgorithm/code.cpp.i
+.PHONY : BellmanFordAlgorithm/code.cpp.i
 
-BipartiteGraphUsingDFS/code.s: BipartiteGraphUsingDFS/code.cpp.s
+BellmanFordAlgorithm/code.s: BellmanFordAlgorithm/code.cpp.s
 
-.PHONY : BipartiteGraphUsingDFS/code.s
+.PHONY : BellmanFordAlgorithm/code.s
 
 # target to generate assembly for a file
-BipartiteGraphUsingDFS/code.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/BipartiteGraphUsingDFS/code.cpp.s
-.PHONY : BipartiteGraphUsingDFS/code.cpp.s
+BellmanFordAlgorithm/code.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphSeries.dir\build.make CMakeFiles/GraphSeries.dir/BellmanFordAlgorithm/code.cpp.s
+.PHONY : BellmanFordAlgorithm/code.cpp.s
 
 # Help Target
 help:
@@ -177,9 +177,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... GraphSeries
-	@echo ... BipartiteGraphUsingDFS/code.obj
-	@echo ... BipartiteGraphUsingDFS/code.i
-	@echo ... BipartiteGraphUsingDFS/code.s
+	@echo ... BellmanFordAlgorithm/code.obj
+	@echo ... BellmanFordAlgorithm/code.i
+	@echo ... BellmanFordAlgorithm/code.s
 .PHONY : help
 
 

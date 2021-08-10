@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/GraphSeries.dir/BipartiteGraphUsingDFS/code.cpp.obj"
+  "CMakeFiles/GraphSeries.dir/BellmanFordAlgorithm/code.cpp.obj"
   "GraphSeries.exe"
   "GraphSeries.exe.manifest"
   "GraphSeries.pdb"

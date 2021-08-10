@@ -12,6 +12,11 @@ struct node {
 };
 
 int main(){
+#ifndef ONLINE_JUDGE
+    freopen("input.txt","r",stdin);
+    freopen("output.txt","w",stdout);
+    freopen("error.txt","w",stderr);
+#endif
     int N,m;
     cin >> N >> m;
     vector<node> edges;

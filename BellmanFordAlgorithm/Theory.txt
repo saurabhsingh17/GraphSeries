@@ -1,0 +1,20 @@
+Theory:
+Bellman ford algorithm is used to find the shortest path in a graph
+as dijikstra algorithm is used to find shortest path with positive edge
+weights.
+If we provide negative edges in dijikstra algorithm then we will be stuck
+in infinite loop as every time the edge will decrease
+->Bellman ford algorithm will not work for negative cycle graph
+->If there is undirected graph then we can convert it into a directed graph
+->The advantage of bellman fords negative cycle is that it can detect negative
+cycle
+Algorithm:
+  Relax all the edges n-1 times
+ ->if(dist(u)+wt<dis[v])
+   dis[v]=dist[u]+wt
+-> The order of edges can we in any order
+-> If we do the relaxation 1 extra time and still the distance gets reduced then
+we can know that the edges have negative cycle.
+
+Time Complexity- O(N-1)*O(E)
+Space Complwxity- O(N) distance array
